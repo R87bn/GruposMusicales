@@ -60,8 +60,8 @@ grupos.forEach((grupo) => {
     console.log(
       `%c${grupo.nombre}`,
       estiloGrupo,
+      //sin estilos adicionales
       ` | Año de fundación: ${grupo.creado} | Activo: ${
-        //sin estilos adicionales
         grupo.activo ? "Sí" : "No"
       } | Género: ${grupo.genero}`
     );
